@@ -1,0 +1,57 @@
+.text-doacao {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 190px;
+    max-width: 150vh;
+}
+
+.contas {
+    border: #753612 solid 10px;
+    background-color: #753612;
+    margin: 70px;
+    bottom: 90px;
+    position: relative;
+    color: white;
+    
+}
+
+.titulo {
+    position: relative;
+    bottom: 1px;
+}
+
+.banco-do-brasil-pai {
+    text-align: center;
+    position: relative;
+    bottom: -150px;
+    display: block;
+    margin: 50px;
+    }
+
+
+
+    .nubank {
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+        }
+    
+  
+
+.agencia {
+    text-align: center;
+    position: relative;
+    bottom:150px;
+
+    }
+
+@media (max-width:768px) {
+
+.text-doacao {
+    margin-right: 50px ;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+}

@@ -1,0 +1,79 @@
+.criterios {
+    margin: 30px;
+    border: #d1a78f solid 5px;
+    background-color: #d1a78f;
+}
+
+.criterios-pai {
+    display: flex;
+    text-align: left;
+    text-align: center;
+    margin: 30px;
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    bottom: 4px;
+    font-size: 13px;
+    
+}
+
+h1 {
+    font-size: 30px;
+}
+.vc-segue {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.clique-no {
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}
+
+.retangulo {
+    border:#d1a78f solid 5px;
+    background-color:#d1a78f;
+    max-width: 25vh;
+    margin-left: 75vh;
+    position: relative;
+    bottom: -19px;
+    
+}
+
+.botao_quero {
+    text-decoration: none;
+    color: white;
+}
+
+.titulo {
+    bottom: 20px;
+}
+
+.cat {
+    position: relative;
+    top: 76px;
+}
+
+@media (max-width:768px){
+
+    .criterios-pai {
+        display: block;
+        align-items: center;
+    }
+
+    .cat {
+        height: 250px;
+        display: block;
+        position: relative;
+        right: -80px;
+        top: 70px;
+    }
+
+    .retangulo {
+        margin-left: 220px;
+        border-radius: 30px;
+    }
+}   

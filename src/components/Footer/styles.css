@@ -1,0 +1,226 @@
+.footer-logo {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background-color: #FFD6BE ;
+    
+}
+
+.footer-1 {
+    display: flex;
+}
+
+.text-footer {
+    font-size: 0.875rem;
+    line-height: 18px;
+    width: 100%;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    text-align: justify;
+    margin-left: 50px;
+    
+    margin-bottom: 60px;
+}
+
+.footer-adote {
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+p {
+    max-width: 291px;
+    
+}
+
+.item-footer {
+    width: 60%;
+    padding-left: 100px;
+    padding: 70px;
+    margin-top: 50px;
+    position: relative;
+    left: 250px;
+    
+   
+}
+.links_footer {
+     color: black;
+}
+
+.item-footer p {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: #000000;
+    
+}
+
+.item-footer ul {
+    list-style: none;
+    margin-top: 1.5rem;
+    
+}
+
+.item-footer ul li {
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
+.item-footer ul li a {
+    color: #074d52(3, 3, 3);
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 18px;
+    transition: all 0.4s ease 0s;
+}
+
+.redes-sociais {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-top: 110px;
+    padding-right: 90px;
+}
+
+.logo_insta {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    
+   
+}
+
+.logo_facebook {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+   
+}
+
+
+.footer-2{
+    position: relative;
+    top: 0px;
+    background-color: #913f10;
+    color: white;
+    padding: 0;
+    bottom: 0;
+    
+}
+.rodape {
+    font-size: 13px;
+    padding-left: 40px;
+    white-space: nowrap;
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text {
+    margin-top: 0.5%;
+    position: relative;
+}
+
+.desenvolvido-por {
+    position: relative;
+    left: 55%;
+    margin-top: 0.5%;
+    
+}
+
+.desenvolvido-por a {
+    color: white;
+}
+
+@media (max-width:768px) {
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .footer-1 {
+        display: block;
+    }
+    
+    .text-footer {
+        width: 410px;
+        text-align: center;
+    }
+    
+    
+    p {
+        max-width: 291px;
+        
+    }
+    
+    .redes-sociais {
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 23px;
+        letter-spacing: 0px;
+        color: #074d52;
+        position: relative;
+        text-align: center;
+        top: -90px;
+        left: 14%;
+    }
+
+    .logo_insta {
+        position: relative;
+        left: -10%;
+    }
+
+    .logo_facebook {
+        position: relative;
+        left: -5%;
+    }
+
+    .item-footer {
+        position: relative;
+        text-align: center;
+        left: 80px;
+
+    }
+    
+    .footer-logo {
+        margin-left: 70px;
+    }
+
+    .text{
+        font-size: 8px;
+    }
+
+    .desenvolvido-por {
+        font-size: 8px;
+        left: 0px;
+    }
+
+    .rodape {
+        display: block;
+        align-items: center;
+        
+    }
+
+    
+    .footer-1 {
+        height: 900px;
+    }
+
+    .footer-2 {
+        top: -10px;
+    }
+}

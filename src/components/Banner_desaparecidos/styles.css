@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.banner-cat {
+    width: 100%;
+    height: 800px;
+    opacity: 0.3;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.header {
+    background: #085d63;
+}
+
+.texto-cat {
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 490px;
+    padding: 90px;
+    text-align: center;
+    justify-content: center;
+    margin: 25px 20px 90px;
+    line-height: 40px;
+    font: 600 20px Nunito, sans-serif;
+}
+
+.banner {
+    height: 800px;
+}
+
+.gatos-desaparecidos {
+    border: gray solid 5px;
+    background-color: gray;
+}
