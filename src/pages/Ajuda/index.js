@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../../components/Nav'
-import Banner_ajuda from '../../components/Banner_ajuda'
+import BannerAjuda from '../../components/BannerAjuda'
 import Footer from '../../components/Footer'
 
 import './styles.css'
@@ -9,7 +9,7 @@ const Desaparecidos = () => {
 return (
         <>
             <Nav />
-            <Banner_ajuda />
+            <BannerAjuda />
             <div className="titulo">
         <h1>
             Faça a sua doação

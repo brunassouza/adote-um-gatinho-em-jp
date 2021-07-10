@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Nav from '../../components/Nav'
-import Banner_desaparecidos from '../../components/Banner_desaparecidos'
+import BannerDesaparecidos from '../../components/BannerDesaparecidos'
 import Footer from '../../components/Footer'
 
 import './styles.css'
@@ -18,7 +18,7 @@ useEffect(()=> {
 return (
         <>
             <Nav />
-            <Banner_desaparecidos />
+            <BannerDesaparecidos />
             <div className="titulo">
         <h1>
             Gatos Desaparecidos

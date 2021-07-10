@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../../components/Nav'
-import Banner_formulario from '../../components/Banner_formulario'
+import BannerFormulario from '../../components/BannerFormulario'
 import Footer from '../../components/Footer'
 import Img from "../../assets/cat__png.png"
 
@@ -10,7 +10,7 @@ const Formulario = () => {
 return (
         <>
             <Nav />
-            <Banner_formulario />
+            <BannerFormulario />
             <div className="titulo">
         <h1>
             Critérios de adoção
